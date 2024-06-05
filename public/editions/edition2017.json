@@ -1,0 +1,141 @@
+{
+	"id": 16,
+	"editionYear": "2017",
+	"fullName": "Open'er Festival powered by Orange",
+	"place": {
+		"city": "Gdynia",
+		"object": "Babie Doły Airport"
+	},
+	"details": [
+		{
+			"day": "28th June",
+			"rain": false,
+			"rainDataUrl": [
+				"https://www.wunderground.com/history/airport/EPGD/2017/6/28/DailyHistory.html?req_city=Gdynia",
+				"https://www.timeanddate.com/weather/poland/gdynia/historic?month=6&year=2017"
+			],
+			"lineup": {
+				"headliners": ["Radiohead"],
+				"lvl1": [{"artist": "James Blake", "firstOnLine": "lineup"}, "Royal Blood"],
+				"lvl2": [{"artist": "Michael Kiwanuka", "firstOnLine": "lineup"}, "Rae Sremmurd", "Solange"],
+				"others": [
+					{"artist": "Arca (DJ Set)", "sliceDecorator": {"slice": "(DJ Set)", "style": "down"}, "firstOnLine": "lineup"},
+					"Black Coffee",
+					{"artist": "Natalia Przybysz", "forceOrder": 3},
+					{"artist": "Quebonafide", "forceOrder": 4},
+					{"artist": "Sorry Boys", "forceOrder": 5, "firstOnLine": "lineup"},
+					"Enzu",
+					"Flirtini",
+					{"artist": "Wacław Zimpel/Kuba Ziołek", "forceOrder": 8},
+					{"artist": "Holak", "forceOrder": 9, "firstOnLine": "lineup"},
+					"Gverilla",
+					"Mery Spolsky"
+				]
+			}
+		}, {
+			"day": "29th June",
+			"rain": true,
+			"rainDataUrl": [
+				"https://www.wunderground.com/history/airport/EPGD/2017/6/29/DailyHistory.html?req_city=Gdynia",
+				"https://www.timeanddate.com/weather/poland/gdynia/historic?month=6&year=2017"
+			],
+			"lineup": {
+				"headliners": [{"artist": "Foo Fighters", "lastOnLine": "headliners"}],
+				"lvl1": [
+					{"artist": "G-Eazy", "firstOnLine": "lineup"},
+					{"artist": "The Kills", "sortBy": "Kills"},
+					"M.I.A."
+				],
+				"lvl2": [
+					{"artist": "Charli XCX", "firstOnLine": "lineup"},
+					"Jimmy Eat World",
+					"Trentemøller"
+				],
+				"others": [
+					{"artist": "A_GIM", "firstOnLine": "lineup"},
+					{"artist": "Bownik", "firstOnLine": "lineup", "forceOrder": 6},
+					"Bitamina",
+					"Blanck Mass",
+					"Daniel Avery",
+					"Hades",
+					"Kari",
+					"Marcin Krupa",
+					"New People",
+					"Salk",
+					"Suwal"
+				]
+			}
+		}, {
+			"day": "30th June",
+			"rain": true,
+			"rainDataUrl": [
+				"https://www.wunderground.com/history/airport/EPGD/2017/6/30/DailyHistory.html?req_city=Gdynia",
+				"https://www.timeanddate.com/weather/poland/gdynia/historic?month=6&year=2017"
+			],
+			"lineup": {
+				"headliners": ["The Weekend"],
+				"lvl1": [{"artist": "Mac Miller", "firstOnLine": "lineup"}, "Moderat", "Prophets of Rage"],
+				"lvl2": [
+					{"artist": "Brodka", "firstOnLine": "lineup"},
+					{"artist": "The Dumplings", "sortBy": "Dumplings"},
+					"Grammatik",
+					{"artist": "JMSN", "firstOnLine": "lineup"},
+					"Kiasmos",
+					"Tiga",
+					"Warpaint"
+				],
+				"others": [
+					{"artist": "Bisz/Radex", "firstOnLine": "lineup"},
+					"Daria Zawiałow",
+					"Dasein",
+					"Deas",
+					"Hańba!",
+					{"artist": "Majlo", "firstOnLine": "lineup"},
+					"Ralph Kaminski"
+				]
+			}
+		}, {
+			"day": "1st July",
+			"rain": true,
+			"rainDataUrl": [
+				"https://www.wunderground.com/history/airport/EPGD/2017/7/1/DailyHistory.html?req_city=Gdynia",
+				"https://www.timeanddate.com/weather/poland/gdynia/historic?month=7&year=2017"
+			],
+			"lineup": {
+				"headliners": [
+					{"artist": "The XX", "firstOnLine": "lineup"},
+					{"artist": "Lorde", "lastOnLine": "headliners"}
+				],
+				"lvl1": [{"artist": "George Ezra", "firstOnLine": "lineup"}, "Taco Hemingway"],
+				"lvl2": [
+					{"artist": "Dua Lipa", "firstOnLine": "lineup"},
+					"Nicolas Jaar",
+					{"artist": "Tyga", "forceOrder": 3},
+					"O.S.T.R."
+				],
+				"others": [
+					{"artist": "Benjamin Booker", "firstOnLine": "lineup"},
+					"Buslav",
+					"Duit",
+					"Julia Pietrucha",
+					"Kevin Morby",
+					{"artist": "Krzysztof Zalewski", "firstOnLine": "lineup"},
+					"Monki",
+					"Niemoc",
+					"Seltron 400",
+					{"artist": "The Shelters", "firstOnLine": "lineup"},
+					"Urbanski"
+				]
+			}
+		}
+	],
+	"lineupSettings": {
+		"sortType": "alphabeticalExceptHeadliners",
+		"mergeArtists": false,
+		"otherArtists": {
+			"label": "... and others",
+			"location": "below"
+		},
+		"separatorElement": false
+	}
+}
