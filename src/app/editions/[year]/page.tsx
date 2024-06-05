@@ -1,7 +1,7 @@
 import React from 'react'
 import path from 'path'
 import fs from 'fs'
-import EritionPageTemplate from '@/app/_components/edition-page-template'
+import EritionPageTemplate from '@/app/editions/_components/edition-page-template'
 import { getEditionsData } from '@/utils/getEditionsData'
 
 type Props = {
