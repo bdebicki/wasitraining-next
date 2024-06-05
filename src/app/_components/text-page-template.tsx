@@ -1,13 +1,14 @@
 import React, { ReactNode } from 'react'
 import Link from 'next/link'
 import { getEditionsData } from '@/utils/getEditionsData'
+import { Footer } from '@/app/_components/footer'
 
 type Props = {
 	title: string
 	children: ReactNode
 }
 
-const TextPageTemplate = async ({ children, title }: Props) => {
+export const TextPageTemplate = async ({ children, title }: Props) => {
 	const editions = await getEditionsData()
 
 	return (
@@ -28,8 +29,7 @@ const TextPageTemplate = async ({ children, title }: Props) => {
 			</header>
 			{title}
 			{children}
+			<Footer />
 		</div>
 	)
 }
-
-export default TextPageTemplate

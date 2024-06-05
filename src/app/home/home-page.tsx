@@ -1,8 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 import { getEditionsData } from '@/utils/getEditionsData'
+import { Footer } from '@/app/_components/footer'
 
-const Home = async () => {
+export const HomePage = async () => {
 	const editions = await getEditionsData()
 
 	return (
@@ -17,12 +18,7 @@ const Home = async () => {
 					))}
 				</ul>
 			</nav>
-			<footer>
-				<Link href="/about">about</Link>
-				<Link href="/cookies">cookies</Link>
-			</footer>
+			<Footer />
 		</main>
 	)
 }
-
-export default Home

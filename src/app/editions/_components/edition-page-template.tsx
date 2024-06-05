@@ -1,12 +1,13 @@
 import React, { ReactNode } from 'react'
 import Link from 'next/link'
 import { getEditionsData } from '@/utils/getEditionsData'
+import { Footer } from '@/app/_components/footer'
 
 type Props = {
 	children: ReactNode
 }
 
-const EditionPageTemplate = async ({ children }: Props) => {
+export const EditionPageTemplate = async ({ children }: Props) => {
 	const editions = await getEditionsData()
 
 	return (
@@ -28,8 +29,7 @@ const EditionPageTemplate = async ({ children }: Props) => {
 				</nav>
 			</header>
 			{children}
+			<Footer />
 		</div>
 	)
 }
-
-export default EditionPageTemplate
