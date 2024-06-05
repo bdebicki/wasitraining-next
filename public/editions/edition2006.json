@@ -16,26 +16,24 @@
 			],
 			"lineup": {
 				"headliners": [
-					{"artist": "Placebo", "firstOnLine": "lineup", "decorator": "uppercase"},
-					{"artist": "Pharrell Williams", "lastOnLine": "lineup"},
-					{"artist": "Manu Chao Radio Bemba Sound System", "firstOnLine": "lineup", "lastOnLine": "lineup", "sliceDecorator": {"slice": "Radio Bemba Sound System"}}
+					"Placebo",
+					"Pharrell Williams",
+					"Manu Chao Radio Bemba Sound System"
 				],
-				"lvl2": [
-					{"artist": "Matthew Herbert", "order": 5, "canceled": true},
-					{"artist": "Nightmares on Wax", "order": 5, "lastOnLine": "lineup"}
-				],
+				"lvl2": ["Matthew Herbert", "Nightmares on Wax"],
 				"others": [
-					{"artist": "Fisz, Emade i Goście", "order": 3},
-					{"artist": "The Car Is On Fire", "order": 7},
-					{"artist": "Cool Kids of Death", "order": 9},
-					{"artist": "Sofa", "order": 10},
-					{"artist": "Masala Soundsystem", "order": 14},
-					{"artist": "Loco Motive Sun", "order": 16},
-					{"artist": "Teatr Klan Grus", "order": 21},
-					{"artist": "Teatr Fire Angels", "order": 20, "firstOnLine": "lineup"}
+					"Fisz, Emade i Goście",
+					"The Car Is On Fire",
+					"Cool Kids of Death",
+					"Sofa",
+					"Masala Soundsystem",
+					"Loco Motive Sun",
+					"Teatr Klan Grus",
+					"Teatr Fire Angels"
 				]
 			}
-		}, {
+		},
+		{
 			"day": "7th July",
 			"rain": false,
 			"rainDataUrl": [
@@ -44,32 +42,25 @@
 			],
 			"lineup": {
 				"headliners": [
-					{"artist": "Franz Ferdinand", "firstOnLine": "lineup"},
-					{"artist": "Sigur Rós", "lastOnLine": "lineup"},
-					{"artist": "Scissor Sisters", "firstOnLine": "lineup"},
-					{"artist": "Skin", "lastOnLine": "lineup"}
+					"Franz Ferdinand",
+					"Sigur Rós",
+					"Scissor Sisters",
+					"Skin"
 				],
-				"lvl2": [
-					{"artist": "Coldcut", "order": 1, "firstOnLine": "lineup"},
-					{"artist": "Ladytron", "order": 3}
-				],
+				"lvl2": ["Coldcut", "Ladytron"],
 				"others": [
-					{"artist": "Myslovitz", "order": 2},
-					{"artist": "Maria Peszek", "order": 5},
-					{
-						"artist": "Kanał Audytywny",
-						"order": 8,
-						"breakLine": true,
-						"sliceDecorator": {"slice": "Kanał", "style": "previousLine"}
-					},
-					{"artist": "Miloopa", "order": 11},
-					{"artist": "Niewinni Czarodzieje", "order": 12},
-					{"artist": "Electricity", "order": 18},
-					{"artist": "Teatr Klan Grus", "visible": false},
-					{"artist": "Teatr Fire Angels", "visible": false}
+					"Myslovitz",
+					"Maria Peszek",
+					"Kanał Audytywny",
+					"Miloopa",
+					"Niewinni Czarodzieje",
+					"Electricity",
+					"Teatr Klan Grus",
+					"Teatr Fire Angels"
 				]
 			}
-		}, {
+		},
+		{
 			"day": "8th July",
 			"rain": true,
 			"rainSize": "small",
@@ -79,35 +70,24 @@
 			],
 			"lineup": {
 				"headliners": [
-					{"artist": "Kanye West", "firstOnLine": "lineup"},
-					{"artist": "Basement Jaxx", "lastOnLine": "lineup"},
-					{"artist": "The Streets", "firstOnLine": "lineup"},
-					{"artist": "Groove Armada", "canceled": true, "lastOnLine": "lineup"}
+					"Kanye West",
+					"Basement Jaxx",
+					"The Streets",
+					"Groove Armada"
 				],
-				"lvl2": [
-					{"artist": "Roger Sanchez", "order": 2}
-				],
+				"lvl2": ["Roger Sanchez"],
 				"others": [
-					{"artist": "Peter Greenaway", "order": 1, "firstOnLine": "lineup"},
-					{"artist": "Abra dAb", "order": 4},
-					{"artist": "Pustki", "order": 6},
-					{"artist": "Beats Friendly", "order": 13},
-					{"artist": "Freak of Nature", "order": 15, "firstOnLine": "lineup"},
-					{"artist": "Psychocukier", "order": 17},
-					{"artist": "Teatr Klan Grus", "visible": false},
-					{"artist": "Teatr Fire Angels", "visible": false},
-					{"artist": "Usta Bilizowane", "order": 19}
+					"Peter Greenaway",
+					"Abra dAb",
+					"Pustki",
+					"Beats Friendly",
+					"Freak of Nature",
+					"Psychocukier",
+					"Teatr Klan Grus",
+					"Teatr Fire Angels",
+					"Usta Bilizowane"
 				]
 			}
 		}
-	],
-	"lineupSettings": {
-		"sortType": "customOrderExceptHeadliners",
-		"mergeArtists": "mainByDaysAndMergeRest",
-		"otherArtists": {
-			"label": "and also:",
-			"location": "othersLvl"
-		},
-		"separatorElement": false
-	}
+	]
 }

@@ -16,35 +16,34 @@
 				"https://www.timeanddate.com/weather/poland/gdynia/historic?month=7&year=2015"
 			],
 			"lineup": {
-				"headliners": [
-					{"artist": "Drake", "marked": true}
-				],
+				"headliners": ["Drake"],
 				"lvl1": [
-					{"artist": "Alt-J", "forceOrder": 1, "firstOnLine": "lineup"},
-					{"artist": "Alabama Shakes", "marked": true},
-					{"artist": "A$AP Rocky", "forceOrder": 3},
-					{"artist": "Chet Faker", "marked": true, "firstOnLine": "lineup"},
+					"Alt-J",
+					"Alabama Shakes",
+					"A$AP Rocky",
+					"Chet Faker",
 					"Die Antwoord",
-					{"artist": "Modest Mouse", "marked": true}
+					"Modest Mouse"
 				],
 				"lvl2": [
-					{"artist": "Father John Misty", "firstOnLine": "lineup"},
-					{"artist": "Kodaline", "marked": true},
+					"Father John Misty",
+					"Kodaline",
 					"Natalia Przybysz",
-					{"artist": "Two Gallants", "marked": true}
+					"Two Gallants"
 				],
 				"others": [
-					{"artist": "HV/NOON", "firstOnLine": "lineup"},
-					{"artist": "Klaves", "marked": true},
+					"HV/NOON",
+					"Klaves",
 					"Milky Wishlake",
-					{"artist": "W.E.N.A. x E.A.B.S.", "marked": true},
-					{"artist": "Golan", "visible": false},
-					{"artist": "Dakh Daughters", "visible": false},
-					{"artist": "Zeppy Zep", "visible": false},
-					{"artist": "Flirtini", "visible": false}
+					"W.E.N.A. x E.A.B.S.",
+					"Golan",
+					"Dakh Daughters",
+					"Zeppy Zep",
+					"Flirtini"
 				]
 			}
-		}, {
+		},
+		{
 			"day": "2nd July",
 			"rain": false,
 			"rainDataUrl": [
@@ -53,37 +52,35 @@
 				"https://www.timeanddate.com/weather/poland/gdynia/historic?month=7&year=2015"
 			],
 			"lineup": {
-				"headliners": [
-					{"artist": "The Libertines", "marked": true, "firstOnLine": "lineup"},
-					"Major Lazer"
-				],
+				"headliners": ["The Libertines", "Major Lazer"],
 				"lvl1": [
-					{"artist": "Enter Shikari", "marked": true, "firstOnLine": "lineup"},
+					"Enter Shikari",
 					"Faithless 2.0",
-					{"artist": "Refused", "marked": true},
-					{"artist": "Kendrick Lamar", "marked": true, "canceled": true, "forceOrder": 4}
+					"Refused",
+					"Kendrick Lamar"
 				],
 				"lvl2": [
-					{"artist": "Curly Heads", "firstOnLine": "lineup"},
-					{"artist": "Django Django", "marked": true},
+					"Curly Heads",
+					"Django Django",
 					"Eagles Of Death Metal",
-					{"artist": "Fisz Emade Tworzywo", "marked": true, "firstOnLine": "lineup"},
+					"Fisz Emade Tworzywo",
 					"Marmozets",
-					{"artist": "Of Montreal", "marked": true},
+					"Of Montreal",
 					"Tom Odell"
 				],
 				"others": [
-					{"artist": "Fismoll", "firstOnLine": "lineup"},
-					{"artist": "Małe Miasta", "marked": true, "forceOrder": 2},
+					"Fismoll",
+					"Małe Miasta",
 					"Mary Komasa",
-					{"artist": "Oxford Drama", "marked": true},
+					"Oxford Drama",
 					"Rysy",
-					{"artist": "Groh + Buszkers", "visible": false},
-					{"artist": "Sonar Soul + Spisek1", "visible": false},
-					{"artist": "Daniel Drumz", "visible": false}
+					"Groh + Buszkers",
+					"Sonar Soul + Spisek1",
+					"Daniel Drumz"
 				]
 			}
-		}, {
+		},
+		{
 			"day": "3rd July",
 			"rain": false,
 			"rainDataUrl": [
@@ -92,34 +89,33 @@
 				"https://www.timeanddate.com/weather/poland/gdynia/historic?month=7&year=2015"
 			],
 			"lineup": {
-				"headliners": [
-					{"artist": "Mumford & Sons", "marked": true, "firstOnLine": "lineup"}
-				],
+				"headliners": ["Mumford & Sons"],
 				"lvl1": [
-					{"artist": "D'Angelo and The Vanguard", "firstOnLine": "lineup"},
-					{"artist": "Of Monsters and Men", "marked": true, "firstOnLine": "lineup"},
-					{"artist": "The Prodigy", "decorator": "promoted"}
+					"D'Angelo and The Vanguard",
+					"Of Monsters and Men",
+					"The Prodigy"
 				],
 				"lvl2": [
-					{"artist": "Jonny Greenwood & LCO", "firstOnLine": "lineup"},
-					{"artist": "José Gonzalez", "marked": true},
+					"Jonny Greenwood & LCO",
+					"José Gonzalez",
 					"Julia Marcell",
-					{"artist": "Swans", "marked": true, "firstOnLine": "lineup"},
+					"Swans",
 					"The Dumplings",
-					{"artist": "The Vaccines", "marked": true},
+					"The Vaccines",
 					"Thurston Moore"
 				],
 				"others": [
-					{"artist": "Agyness B. Marry", "marked": true, "firstOnLine": "lineup"},
+					"Agyness B. Marry",
 					"Min T",
-					{"artist": "Nervy", "marked": true},
-					{"artist": "Taco Hemingway", "visible": false},
-					{"artist": "Rebel Babel Ensemble", "visible": false},
-					{"artist": "Selvy", "visible": false},
-					{"artist": "Pete Grace", "visible": false}
+					"Nervy",
+					"Taco Hemingway",
+					"Rebel Babel Ensemble",
+					"Selvy",
+					"Pete Grace"
 				]
 			}
-		}, {
+		},
+		{
 			"day": "4th July",
 			"rain": false,
 			"rainDataUrl": [
@@ -128,44 +124,28 @@
 				"https://www.timeanddate.com/weather/poland/gdynia/historic?month=7&year=2015"
 			],
 			"lineup": {
-				"headliners": [
-					{"artist": "Kasabian", "marked": true, "firstOnLine": "lineup"},
-					"Disclosure"
-				],
-				"lvl1": [
-					{"artist": "Flume", "marked": true, "firstOnLine": "lineup"},
-					"Hozier",
-					{"artist": "St. Vincent", "marked": true}
-				],
+				"headliners": ["Kasabian", "Disclosure"],
+				"lvl1": ["Flume", "Hozier", "St. Vincent"],
 				"lvl2": [
-					{"artist": "Domowe Melodie", "firstOnLine": "lineup"},
-					{"artist": "George Fitzgerald", "marked": true},
-					{"artist": "Kaytranada", "canceled": true},
-					{"artist": "Lao Che", "marked": true, "firstOnLine": "lineup"},
-					{"artist": "Skubas", "forceOrder": 5},
-					{"artist": "Ratking", "marked": true},
+					"Domowe Melodie",
+					"George Fitzgerald",
+					"Kaytranada",
+					"Lao Che",
+					"Skubas",
+					"Ratking",
 					"Years & Years"
 				],
 				"others": [
-					{"artist": "The Feral Trees", "marked": true, "firstOnLine": "lineup"},
+					"The Feral Trees",
 					"Trupa Trupa",
-					{"artist": "Patrick The Pan", "visible": false},
-					{"artist": "Hudson Mohawke", "visible": false},
-					{"artist": "Oly", "visible": false},
-					{"artist": "Oly", "visible": false},
-					{"artist": "Matat Professionals", "visible": false},
-					{"artist": "Naphta", "visible": false}
+					"Patrick The Pan",
+					"Hudson Mohawke",
+					"Oly",
+					"Oly",
+					"Matat Professionals",
+					"Naphta"
 				]
 			}
 		}
-	],
-	"lineupSettings": {
-		"sortType": "alphabeticalExceptHeadliners",
-		"mergeArtists": false,
-		"otherArtists": {
-			"label": "... and many others",
-			"location": "below"
-		},
-		"separatorElement": false
-	}
+	]
 }

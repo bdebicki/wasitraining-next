@@ -16,25 +16,19 @@
 				"https://www.timeanddate.com/weather/poland/gdynia/historic?month=6&year=2016"
 			],
 			"lineup": {
-				"headliners": [{"artist": "Florence+The Machine", "firstOnLine": ["headliners", "lineup"]}],
+				"headliners": ["Florence+The Machine"],
 				"lvl1": [
 					"Mac Demarco",
 					"PJ Harvey",
 					"Savages",
-					{"artist": "Skepta", "firstOnLine": "lineup"},
+					"Skepta",
 					"Tame Impala",
-					{"artist": "The Last Shadow Puppets", "firstOnLine": "lineup"}
+					"The Last Shadow Puppets"
 				],
-				"lvl2": [
-					"DJ Tennis",
-					"Flirtini",
-					{"artist": "Lunice", "firstOnLine": "lineup"},
-					"Małpa",
-					"Xxanaxx"
-				],
+				"lvl2": ["DJ Tennis", "Flirtini", "Lunice", "Małpa", "Xxanaxx"],
 				"others": [
 					"Chino",
-					{"artist": "Heroes Get Remembered", "firstOnLine": "lineup"},
+					"Heroes Get Remembered",
 					"Lxmp",
 					"Otsochodzi",
 					"Shy Albatross",
@@ -42,7 +36,8 @@
 					"T’ien Lai"
 				]
 			}
-		}, {
+		},
+		{
 			"day": "30th June",
 			"rain": true,
 			"rainSize": "small",
@@ -51,11 +46,17 @@
 				"https://www.timeanddate.com/weather/poland/gdynia/historic?month=6&year=2016"
 			],
 			"lineup": {
-				"headliners": [{"artist": "Red Hot Chili Peppers", "firstOnLine": ["headliners", "lineup"]}],
+				"headliners": ["Red Hot Chili Peppers"],
 				"lvl1": ["Beirut", "Caribou", "Foals", "M83"],
-				"lvl2": ["KAMP!", "Maria Peszek", "Łona Webber", "Rebeka", "Section Boyz"],
+				"lvl2": [
+					"KAMP!",
+					"Maria Peszek",
+					"Łona Webber",
+					"Rebeka",
+					"Section Boyz"
+				],
 				"others": [
-					{"artist": "An On Bast", "firstOnLine": "lineup"},
+					"An On Bast",
 					"Baasch",
 					"Czeluść (Jutro X Kosa)",
 					"Kroki",
@@ -64,7 +65,8 @@
 					"V/O"
 				]
 			}
-		}, {
+		},
+		{
 			"day": "1st July",
 			"rain": false,
 			"rainDataUrl": [
@@ -72,28 +74,28 @@
 				"https://www.timeanddate.com/weather/poland/gdynia/historic?month=7&year=2016"
 			],
 			"lineup": {
-				"headliners": [
-					{"artist": "Lcd Soundsystem", "firstOnLine": ["headliners", "lineup"]},
-					"Sigur Rós"
-				],
+				"headliners": ["Lcd Soundsystem", "Sigur Rós"],
 				"lvl1": [
 					"Dawid Podsiadło",
-					{"artist": "Kurt Ville & The Violators", "firstOnLine": "lineup"},
-					{"artist": "Paul Kalkbrenner", "firstOnLine": "lineup"},
+					"Kurt Ville & The Violators",
+					"Paul Kalkbrenner",
 					"Wiz Khalifa"
 				],
 				"lvl2": [
-					{"artist": "Catz ’n Dogs", "firstOnLine": "lineup"},
+					"Catz ’n Dogs",
 					"Kortez",
 					"Nothing but Thieves",
-					{"artist": "Ptaki", "firstOnLine": "lineup"},
+					"Ptaki",
 					"Rysy",
-					{"artist": "Wince Staples", "firstOnLine": "lineup"},
+					"Wince Staples",
 					{
 						"artist": "Zbigniew Wodeski with Mitch & Mitch Orchestra and Choir",
 						"sliceDecorator": [
-							{"slice": "with", "style": "down"},
-							{"slice": "Orchestra and Choir", "style": "multiline"}
+							{ "slice": "with", "style": "down" },
+							{
+								"slice": "Orchestra and Choir",
+								"style": "multiline"
+							}
 						]
 					}
 				],
@@ -101,12 +103,13 @@
 					"Grobel",
 					"Jóga",
 					"Kuba Sojka",
-					{"artist": "Olivier Heim", "firstOnLine": "lineup"},
+					"Olivier Heim",
 					"Suumoo",
 					"Zamilska"
 				]
 			}
-		}, {
+		},
+		{
 			"day": "2nd July",
 			"rain": true,
 			"rainDataUrl": [
@@ -114,14 +117,11 @@
 				"https://www.timeanddate.com/weather/poland/gdynia/historic?month=7&year=2016"
 			],
 			"lineup": {
-				"headliners": [
-					{"artist": "Pharrell Williams", "firstOnLine": ["headliners", "lineup"]},
-					"Kygo"
-				],
+				"headliners": ["Pharrell Williams", "Kygo"],
 				"lvl1": [
-					{"artist": "At The Drive-in", "firstOnLine": "lineup"},
+					"At The Drive-in",
 					"Bastille",
-					{"artist": "Chvrches", "firstOnLine": "lineup"},
+					"Chvrches",
 					"Grimes",
 					"The 1975"
 				],
@@ -133,17 +133,11 @@
 					"Nagrobki",
 					"Piotr Bejnar",
 					"Soom T",
-					{"artist": "Spoken Love", "firstOnLine": "lineup"},
+					"Spoken Love",
 					"Terrific Sunday",
 					"We Draw A"
 				]
 			}
 		}
-	],
-	"lineupSettings": {
-		"sortType": "alphabeticalExceptHeadliners",
-		"mergeArtists": true,
-		"otherArtists": false,
-		"separatorElement": false
-	}
+	]
 }
