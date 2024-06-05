@@ -6,13 +6,15 @@ type Props = {
 	children: ReactNode
 }
 
-const LayoutSecondary = async ({ children }: Props) => {
+const EditionPageTemplate = async ({ children }: Props) => {
 	const editions = await getEditionsData()
 
 	return (
 		<div>
 			<header>
-				<h1>was it raining at open'er festival?</h1>
+				<h1>
+					<Link href="/">was it raining at open'er festival?</Link>
+				</h1>
 				<nav role="navigation">
 					<ul>
 						{editions.map(({ editionYear: year }) => (
@@ -28,4 +30,4 @@ const LayoutSecondary = async ({ children }: Props) => {
 	)
 }
 
-export default LayoutSecondary
+export default EditionPageTemplate

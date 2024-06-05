@@ -17,6 +17,10 @@ const Home = async () => {
 					))}
 				</ul>
 			</nav>
+			<footer>
+				<Link href="/about">about</Link>
+				<Link href="/cookies">cookies</Link>
+			</footer>
 		</main>
 	)
 }
