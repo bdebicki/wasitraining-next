@@ -1,5 +1,7 @@
 import { Lato } from 'next/font/google'
 import './globals.css'
+import { Background } from '@/app/_components/background'
+import React from 'react'
 
 const lato = Lato({
 	weight: ['400', '700'],
@@ -13,7 +15,10 @@ type Props = Readonly<{
 
 const RootLayout = ({ children }: Props) => (
 	<html lang="en">
-		<body className={lato.className}>{children}</body>
+		<body className={lato.className}>
+			{children}
+			<Background />
+		</body>
 	</html>
 )
 

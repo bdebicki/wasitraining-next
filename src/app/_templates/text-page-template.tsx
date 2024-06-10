@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react'
 import Link from 'next/link'
 import { getEditionsData } from '@/utils/getEditionsData'
-import { RootLayoutTemplate } from '@/app/_templates/root-layout-temlate'
+import { RootLayoutTemplate } from '@/app/_templates/root-layout-template'
 
 type Props = {
 	title: string
@@ -16,7 +16,7 @@ export const TextPageTemplate = async ({ children, title }: Props) => {
 			<div>
 				<header>
 					<h1>
-						<Link href="/public">
+						<Link href="/">
 							was it raining at open'er festival?
 						</Link>
 					</h1>

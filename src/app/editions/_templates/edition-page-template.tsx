@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react'
 import Link from 'next/link'
 import { getEditionsData } from '@/utils/getEditionsData'
-import { RootLayoutTemplate } from '@/app/_templates/root-layout-temlate'
+import { RootLayoutTemplate } from '@/app/_templates/root-layout-template'
 
 type Props = {
 	children: ReactNode

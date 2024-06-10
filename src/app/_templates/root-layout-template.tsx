@@ -9,7 +9,6 @@ type Props = Readonly<{
 export const RootLayoutTemplate = ({ children, mode = 'page' }: Props) => (
 	<>
 		{children}
-		<Background />
 		<Footer mode={mode === 'home' ? 'light' : 'dark'} />
 	</>
 )

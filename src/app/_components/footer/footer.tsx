@@ -7,8 +7,6 @@ export type Props = {
 }
 
 export const Footer = ({ mode = 'light' }: Props) => {
-	console.log(mode)
-
 	return (
 		<footer>
 			<p>
