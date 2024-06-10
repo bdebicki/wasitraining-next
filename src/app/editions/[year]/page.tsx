@@ -1,8 +1,8 @@
 import React from 'react'
 import path from 'path'
 import fs from 'fs'
-import { EditionPageTemplate } from '@/app/editions/_templates/edition-page-template'
 import { getEditionsData } from '@/utils/getEditionsData'
+import { PageTemplate } from '@/app/_templates/page-template'
 
 type Props = {
 	params: {
@@ -44,9 +44,9 @@ const EditionPage = async ({ params }: Props) => {
 	const edition: Edition = JSON.parse(fileContents)
 
 	return (
-		<EditionPageTemplate>
+		<PageTemplate>
 			{edition.fullName} - {edition.editionYear}
-		</EditionPageTemplate>
+		</PageTemplate>
 	)
 }
 

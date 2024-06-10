@@ -1,8 +1,8 @@
 import React from 'react'
-import { TextPageTemplate } from '@/app/_templates/text-page-template'
+import { PageTemplate } from '@/app/_templates/page-template'
 
 const AboutPage = () => (
-	<TextPageTemplate title="about page">about page</TextPageTemplate>
+	<PageTemplate title="about page">about page</PageTemplate>
 )
 
 export default AboutPage

@@ -1,8 +1,8 @@
 import React from 'react'
-import { TextPageTemplate } from '@/app/_templates/text-page-template'
+import { PageTemplate } from '@/app/_templates/page-template'
 
 const CookiesPage = () => (
-	<TextPageTemplate title="cookies">cookies page</TextPageTemplate>
+	<PageTemplate title="cookies">cookies page</PageTemplate>
 )
 
 export default CookiesPage

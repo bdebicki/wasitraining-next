@@ -1,5 +1,5 @@
 import { Background } from '@/app/_components/background'
-import { Footer } from '@/app/_components/footer/footer'
+import { Footer } from '@/app/_components/footer'
 
 type Props = Readonly<{
 	children: React.ReactNode
