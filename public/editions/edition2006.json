@@ -1,6 +1,6 @@
 {
 	"id": 5,
-	"editionYear": "2006",
+	"year": "2006",
 	"fullName": "Heineken Music sponsors Open'er Festival",
 	"place": {
 		"city": "Gdynia",
@@ -20,7 +20,13 @@
 					"Pharrell Williams",
 					"Manu Chao Radio Bemba Sound System"
 				],
-				"lvl2": ["Matthew Herbert", "Nightmares on Wax"],
+				"lvl2": [
+					{
+						"artist": "Matthew Herbert",
+						"canceled": true
+					},
+					"Nightmares on Wax"
+				],
 				"others": [
 					"Fisz, Emade i Goście",
 					"The Car Is On Fire",
@@ -73,7 +79,10 @@
 					"Kanye West",
 					"Basement Jaxx",
 					"The Streets",
-					"Groove Armada"
+					{
+						"artist": "Groove Armada",
+						"canceled": true
+					}
 				],
 				"lvl2": ["Roger Sanchez"],
 				"others": [

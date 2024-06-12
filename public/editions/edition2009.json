@@ -1,6 +1,6 @@
 {
 	"id": 8,
-	"editionYear": "2009",
+	"year": "2009",
 	"fullName": "Heineken Music sponsors Open'er Festival",
 	"place": {
 		"city": "Gdynia",
@@ -52,7 +52,7 @@
 					"Speed Caravan",
 					"Maria Peszek",
 					"Kapela Ze Wsi Warszawa",
-					"Thievery Corporation"
+					{ "artist": "Thievery Corporation", "canceled": true }
 				],
 				"lvl4": [
 					"Pati Yang",
@@ -125,7 +125,11 @@
 			"lineup": {
 				"headliners": ["Kings of Leon", "Placebo", "The Prodigy"],
 				"lvl1": ["Lily Allen"],
-				"lvl2": ["The Ting Tings", "Santigold", "Fat Freddy's Drop"],
+				"lvl2": [
+					"The Ting Tings",
+					"Santigold",
+					{ "artist": "Fat Freddy's Drop", "canceled": true }
+				],
 				"lvl3": ["Jazzanova (live)", "Priscilla Ahn", "O.S.T.R."],
 				"lvl4": [
 					"Sofa",

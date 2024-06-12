@@ -1,6 +1,6 @@
 {
 	"id": 14,
-	"editionYear": "2015",
+	"year": "2015",
 	"fullName": "Open'er Festival",
 	"place": {
 		"city": "Gdynia",
@@ -57,7 +57,7 @@
 					"Enter Shikari",
 					"Faithless 2.0",
 					"Refused",
-					"Kendrick Lamar"
+					{ "artist": "Kendrick Lamar", "canceled": true }
 				],
 				"lvl2": [
 					"Curly Heads",
@@ -129,7 +129,7 @@
 				"lvl2": [
 					"Domowe Melodie",
 					"George Fitzgerald",
-					"Kaytranada",
+					{ "artist": "Kaytranada", "canceled": true },
 					"Lao Che",
 					"Skubas",
 					"Ratking",

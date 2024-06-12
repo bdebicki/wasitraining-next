@@ -1,6 +1,6 @@
 {
 	"id": 7,
-	"editionYear": "2008",
+	"year": "2008",
 	"fullName": "Heineken Music sponsors Open'er Festival",
 	"place": {
 		"city": "Gdynia",
@@ -60,7 +60,14 @@
 			],
 			"lineup": {
 				"headliners": ["Jay-Z", "Interpol"],
-				"lvl1": ["Erykah Badu", "Sex Pistols", "Beirut"],
+				"lvl1": [
+					"Erykah Badu",
+					"Sex Pistols",
+					{
+						"artist": "Beirut",
+						"canceled": true
+					}
+				],
 				"lvl2": ["Gentleman & The Far East Band", "Cocorosie"],
 				"lvl3": [
 					"Cool Kids Of Death",
@@ -100,7 +107,11 @@
 			],
 			"lineup": {
 				"headliners": ["Massive Attack", "The Chemical Brothers"],
-				"lvl1": ["Goldfrapp", "M.I.A.", "Martina Topley Bird"],
+				"lvl1": [
+					"Goldfrapp",
+					{ "artist": "M.I.A.", "canceled": true },
+					"Martina Topley Bird"
+				],
 				"lvl3": [
 					"Lao Che",
 					"Vavamuffin",

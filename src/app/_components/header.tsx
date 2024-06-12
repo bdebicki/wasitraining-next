@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { getEditionsData } from '@/utils/getEditionsData'
+import { getEditionsData } from '@/utils/edition'
 
 export const HeaderPage = async () => {
 	const editions = await getEditionsData()
@@ -12,7 +12,7 @@ export const HeaderPage = async () => {
 			</h1>
 			<nav role="navigation">
 				<ul>
-					{editions.map(({ editionYear: year }) => (
+					{editions.map(({ year }) => (
 						<li key={year}>
 							<Link href={`/editions/${year}`}>{year}</Link>
 						</li>

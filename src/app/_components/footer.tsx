@@ -11,7 +11,10 @@ export const Footer = ({ mode = 'light' }: Props) => {
 		<footer>
 			<p>
 				yep. this site uses cookies. click{' '}
-				<Link href="/cookies">here</Link> for more
+				<Link href="/cookies" hasDecoration>
+					here
+				</Link>{' '}
+				for more
 			</p>
 			<section>
 				<p>

@@ -7,7 +7,7 @@ type Props = {
 export const ActionGroup = ({ actions }: Props) => (
 	<ul>
 		{actions.map((action) => (
-			<li>{action}</li>
+			<li key={action.key}>{action}</li>
 		))}
 	</ul>
 )

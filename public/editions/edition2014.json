@@ -1,6 +1,6 @@
 {
 	"id": 13,
-	"editionYear": "2014",
+	"year": "2014",
 	"fullName": "Heineken sponsors Open'er Festival",
 	"place": {
 		"city": "Gdynia",
@@ -79,7 +79,7 @@
 					"Weeping Birds",
 					"Kuba Sojka Live",
 					"Piotr Bejnar",
-					"Flirtini",
+					{ "artist": "Flirtini", "canceled": true },
 					"We Draw A"
 				]
 			}
@@ -140,6 +140,7 @@
 					"The Dumplings",
 					{
 						"artist": "Domowe Melodie",
+						"canceled": true,
 						"replacement": "The Dumplings"
 					},
 					"Plastic",
