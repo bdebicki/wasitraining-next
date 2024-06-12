@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
-import { edition } from '@/utils/edition'
+import { getEditionsData } from '@/utils/edition'
 
 export const Timeline = async () => {
-	const editions = await edition()
+	const editions = await getEditionsData()
 
 	return (
 		<nav role="navigation">

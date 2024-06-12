@@ -19,7 +19,7 @@ type Props = ConditionalProps & {
 	children: string
 	title?: string
 	hasDecoration?: boolean
-	icon?: React.ReactElement
+	icon?: string
 }
 
 export const Link = ({
