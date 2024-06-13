@@ -26,7 +26,7 @@ export const getHeadlinersFromEdition = (
 	details: EditionDetails
 ): EditionInfoProps['headliners'] => {
 	return details.flatMap(
-		({ lineup }: { lineup: Lineup }) => lineup.headliners
+		({ lineup }: { lineup: Lineup }) => lineup.headliners ?? []
 	)
 }
 

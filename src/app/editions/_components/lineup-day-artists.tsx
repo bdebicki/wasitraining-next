@@ -2,7 +2,7 @@ import React from 'react'
 import type { Artist } from '@/types/editions'
 
 type Props = {
-	headliners: Array<Artist>
+	headliners?: Array<Artist>
 	lvl1?: Array<Artist>
 	lvl2?: Array<Artist>
 	others?: Array<Artist>
@@ -25,7 +25,7 @@ const renderArtist = (artists: Array<Artist>) =>
 
 export const LineupDayArtists = ({ headliners, lvl1, lvl2, others }: Props) => (
 	<>
-		<ul>{renderArtist(headliners)}</ul>
+		{headliners ? <ul>{renderArtist(headliners)}</ul> : null}
 		{lvl1 ? <ul>{renderArtist(lvl1)}</ul> : null}
 		{lvl2 ? <ul>{renderArtist(lvl2)}</ul> : null}
 		{others ? <ul>{renderArtist(others)}</ul> : null}
