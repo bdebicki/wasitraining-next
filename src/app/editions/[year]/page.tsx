@@ -26,7 +26,8 @@ const EditionPage = async ({ params }: Props) => {
 		process.cwd(),
 		'public',
 		'editions',
-		`edition${editionYear}.json`
+		'data',
+		`edition-${editionYear}.json`
 	)
 	const fileContents = await fs.promises.readFile(filePath, 'utf8')
 	const { fullName, year, place, details }: Edition = JSON.parse(fileContents)

@@ -10,7 +10,7 @@ import type { Props as EditionInfoProps } from '@/app/editions/_components/editi
 import type { Rain, RainDetails } from '@/types/rain'
 
 export const getEditionsData = async (): Promise<Array<Edition>> => {
-	const editionsDir = path.join(process.cwd(), 'public', 'editions')
+	const editionsDir = path.join(process.cwd(), 'public', 'editions', 'data')
 	const filenames = await fs.readdir(editionsDir)
 
 	return await Promise.all(
