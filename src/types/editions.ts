@@ -27,3 +27,7 @@ export type Edition = EditionInformation & {
 	id: number
 	details: EditionDetails
 }
+export type DailyLineup = Array<{
+	day: string
+	artists: Lineup
+}>

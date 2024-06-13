@@ -5,6 +5,7 @@ import { Link } from '@/app/_system/link'
 import type { RainDetails as Details } from '@/types/rain'
 import { setRainFromProp } from '@/utils/setRainFromProp'
 import { BtnIcon } from '@/app/_system/btn-icon'
+import { Dialog } from '@/app/_system/dialog'
 
 type Props = {
 	details: Details
@@ -26,8 +27,7 @@ export const RainDetails = ({ details }: Props) => {
 				more
 			</Link>
 			{isOpen ? (
-				<>
-					<BtnIcon icon="close" label="close" onClick={handleClose} />
+				<Dialog title="Rain" onClose={handleClose}>
 					<ul>
 						{details.map(({ date, isRaining }) => (
 							<li key={date}>
@@ -36,7 +36,7 @@ export const RainDetails = ({ details }: Props) => {
 							</li>
 						))}
 					</ul>
-				</>
+				</Dialog>
 			) : null}
 		</>
 	)

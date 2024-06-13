@@ -1,5 +1,6 @@
 import React from 'react'
-import type { Artist, EditionInformation } from '@/types/editions'
+import { Artist, DailyLineup, EditionInformation } from '@/types/editions'
+import { LineupDetails } from '@/app/editions/_components/lineup-details'
 
 export type Props = EditionInformation & {
 	date: {
@@ -7,6 +8,7 @@ export type Props = EditionInformation & {
 		end?: string
 	}
 	headliners: Array<Artist>
+	lineup: DailyLineup
 }
 
 export const EditionInfo = ({
@@ -15,6 +17,7 @@ export const EditionInfo = ({
 	date,
 	place,
 	headliners,
+	lineup,
 }: Props) => {
 	const { start, end } = date
 	const { city, object } = place
@@ -38,6 +41,7 @@ export const EditionInfo = ({
 					) : null
 				})}
 			</ul>
+			<LineupDetails year={year} lineup={lineup} />
 		</section>
 	)
 }

@@ -1,6 +1,11 @@
 import path from 'path'
 import fs from 'fs/promises'
-import type { Edition, EditionDetails, Lineup } from '@/types/editions'
+import type {
+	DailyLineup,
+	Edition,
+	EditionDetails,
+	Lineup,
+} from '@/types/editions'
 import type { Props as EditionInfoProps } from '@/app/editions/_components/edition-info'
 import type { Rain, RainDetails } from '@/types/rain'
 
@@ -45,4 +50,10 @@ export const getRainDetailsFromEdition = (
 		date: day,
 		isRaining: rain,
 	}))
+}
+
+export const getDailyLineupFromEdition = (
+	details: EditionDetails
+): DailyLineup => {
+	return details.map(({ day, lineup }) => ({ day: day, artists: lineup }))
 }

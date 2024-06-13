@@ -7,6 +7,7 @@ import {
 	getHeadlinersFromEdition,
 	getRainDetailsFromEdition,
 	getRainFromEdition,
+	getDailyLineupFromEdition,
 } from '@/utils/edition'
 import { PageTemplate } from '@/app/_templates/page-template'
 import type { Edition } from '@/types/editions'
@@ -33,6 +34,7 @@ const EditionPage = async ({ params }: Props) => {
 	const date = getDateFromEdition(details)
 	const isRaining = getRainFromEdition(details)
 	const rainDetails = getRainDetailsFromEdition(details)
+	const lineup = getDailyLineupFromEdition(details)
 
 	return (
 		<PageTemplate>
@@ -42,6 +44,7 @@ const EditionPage = async ({ params }: Props) => {
 				place={place}
 				date={date}
 				headliners={headliners}
+				lineup={lineup}
 			/>
 			<RainInfo isRaining={isRaining} details={rainDetails} />
 		</PageTemplate>
