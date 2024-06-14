@@ -2,8 +2,8 @@
 
 import React, { useState } from 'react'
 import { DailyLineup } from '@/types/editions'
-import { Link } from '@/app/_system/link'
-import { Dialog } from '@/app/_system/dialog'
+import { Link } from '@/system/link'
+import { Dialog } from '@/system/dialog'
 import { LineupDayArtists } from '@/app/editions/_components/lineup-day-artists'
 
 type Props = {

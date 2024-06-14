@@ -1,6 +1,6 @@
 import { Lato } from 'next/font/google'
 import './globals.css'
-import { Background } from '@/app/_components/background'
+import { Background } from '@/components/background'
 import React from 'react'
 
 const lato = Lato({

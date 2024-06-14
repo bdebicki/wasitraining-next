@@ -1,11 +1,11 @@
 'use client'
 
 import React, { useState } from 'react'
-import { Link } from '@/app/_system/link'
+import { Link } from '@/system/link'
 import type { RainDetails as Details } from '@/types/rain'
 import { setRainFromProp } from '@/utils/setRainFromProp'
-import { BtnIcon } from '@/app/_system/btn-icon'
-import { Dialog } from '@/app/_system/dialog'
+import { BtnIcon } from '@/system/btn-icon'
+import { Dialog } from '@/system/dialog'
 
 type Props = {
 	details: Details

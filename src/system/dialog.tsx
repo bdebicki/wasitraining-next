@@ -1,5 +1,5 @@
 import React from 'react'
-import { BtnIcon } from '@/app/_system/btn-icon'
+import { BtnIcon } from '@/system/btn-icon'
 
 type Props = {
 	title: string

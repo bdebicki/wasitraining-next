@@ -8,7 +8,7 @@ export const HeaderPage = async () => {
 	return (
 		<header>
 			<h1>
-				<Link href="/">was it raining at open'er festival?</Link>
+				<Link href="/public">was it raining at open'er festival?</Link>
 			</h1>
 			<nav role="navigation">
 				<ul>

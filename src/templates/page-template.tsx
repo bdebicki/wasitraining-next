@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react'
-import { RootLayoutTemplate } from '@/app/_templates/root-layout-template'
-import { HeaderPage } from '@/app/_components/header'
+import { RootLayoutTemplate } from '@/templates/root-layout-template'
+import { HeaderPage } from '@/components/header'
 
 type Props = {
 	title?: string

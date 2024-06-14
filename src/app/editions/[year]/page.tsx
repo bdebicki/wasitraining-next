@@ -9,7 +9,7 @@ import {
 	getRainFromEdition,
 	getDailyLineupFromEdition,
 } from '@/utils/edition'
-import { PageTemplate } from '@/app/_templates/page-template'
+import { PageTemplate } from '@/templates/page-template'
 import type { Edition } from '@/types/editions'
 import { EditionInfo } from '@/app/editions/_components/edition-info'
 import { RainInfo } from '@/app/editions/_components/rain-info'

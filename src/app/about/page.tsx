@@ -1,5 +1,5 @@
 import React from 'react'
-import { PageTemplate } from '@/app/_templates/page-template'
+import { PageTemplate } from '@/templates/page-template'
 
 const AboutPage = () => (
 	<PageTemplate title="about page">about page</PageTemplate>
