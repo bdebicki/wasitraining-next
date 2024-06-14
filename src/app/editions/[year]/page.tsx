@@ -1,18 +1,18 @@
 import React from 'react'
-import path from 'path'
-import fs from 'fs'
+import { EditionInfo } from '@/app/editions/_components/edition-info'
+import { RainInfo } from '@/app/editions/_components/rain-info'
+import { PageTemplate } from '@/templates/page-template'
+import type { Edition } from '@/types/editions'
 import {
-	getEditionsData,
+	getDailyLineupFromEdition,
 	getDateFromEdition,
+	getEditionsData,
 	getHeadlinersFromEdition,
 	getRainDetailsFromEdition,
 	getRainFromEdition,
-	getDailyLineupFromEdition,
 } from '@/utils/edition'
-import { PageTemplate } from '@/templates/page-template'
-import type { Edition } from '@/types/editions'
-import { EditionInfo } from '@/app/editions/_components/edition-info'
-import { RainInfo } from '@/app/editions/_components/rain-info'
+import fs from 'fs'
+import path from 'path'
 
 type Props = {
 	params: {

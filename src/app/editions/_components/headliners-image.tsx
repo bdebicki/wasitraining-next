@@ -1,6 +1,6 @@
-import type { Year } from '@/types/editions'
-import Image from 'next/image'
 import React from 'react'
+import Image from 'next/image'
+import type { Year } from '@/types/editions'
 
 type Props = {
 	year: Year

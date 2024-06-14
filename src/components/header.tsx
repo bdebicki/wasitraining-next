@@ -1,5 +1,5 @@
-import Link from 'next/link'
 import React from 'react'
+import Link from 'next/link'
 import { getEditionsData } from '@/utils/edition'
 
 export const HeaderPage = async () => {
@@ -8,7 +8,9 @@ export const HeaderPage = async () => {
 	return (
 		<header>
 			<h1>
-				<Link href="/public">was it raining at open'er festival?</Link>
+				<Link href="/public">
+					was it raining at open&apos;er festival?
+				</Link>
 			</h1>
 			<nav role="navigation">
 				<ul>

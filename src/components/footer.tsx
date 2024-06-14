@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from '@/system/link'
 import { ActionGroup } from '@/system/action-group'
+import { Link } from '@/system/link'
 
 export type Props = {
 	mode?: 'light' | 'dark'

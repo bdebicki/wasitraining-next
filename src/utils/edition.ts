@@ -1,13 +1,13 @@
-import path from 'path'
-import fs from 'fs/promises'
+import type { Props as EditionInfoProps } from '@/app/editions/_components/edition-info'
 import type {
 	DailyLineup,
 	Edition,
 	EditionDetails,
 	Lineup,
 } from '@/types/editions'
-import type { Props as EditionInfoProps } from '@/app/editions/_components/edition-info'
 import type { Rain, RainDetails } from '@/types/rain'
+import fs from 'fs/promises'
+import path from 'path'
 
 export const getEditionsData = async (): Promise<Array<Edition>> => {
 	const editionsDir = path.join(process.cwd(), 'public', 'editions', 'data')

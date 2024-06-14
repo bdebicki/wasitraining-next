@@ -1,4 +1,31 @@
 {
-  "extends": ["next/core-web-vitals", "prettier"],
-  "plugins": ["tailwindcss"]
+	"extends": ["next/core-web-vitals", "prettier"],
+	"plugins": ["tailwindcss"],
+	"rules": {
+		"sort-imports": [
+			"error",
+			{
+				"ignoreCase": false,
+				"ignoreDeclarationSort": true,
+				"ignoreMemberSort": false
+			}
+		],
+		"import/no-useless-path-segments": "error",
+		"import/order": [
+			"error",
+			{
+				"groups": ["external", "internal"],
+				"pathGroups": [
+					{
+						"pattern": "react",
+						"group": "external",
+						"position": "before"
+					}
+				],
+				"pathGroupsExcludedImportTypes": ["react"],
+				"newlines-between": "never",
+				"alphabetize": { "order": "asc", "caseInsensitive": true }
+			}
+		]
+	}
 }

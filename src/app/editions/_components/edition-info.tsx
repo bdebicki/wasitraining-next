@@ -1,12 +1,12 @@
 import React from 'react'
+import { HeadlinersImage } from '@/app/editions/_components/headliners-image'
+import { HeadlinersList } from '@/app/editions/_components/headliners-list'
+import { Lineup } from '@/app/editions/_components/lineup'
 import type {
 	ArtistList,
 	DailyLineup,
 	EditionInformation,
 } from '@/types/editions'
-import { Lineup } from '@/app/editions/_components/lineup'
-import { HeadlinersImage } from '@/app/editions/_components/headliners-image'
-import { HeadlinersList } from '@/app/editions/_components/headliners-list'
 
 export type Props = EditionInformation & {
 	date: {

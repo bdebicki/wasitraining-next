@@ -1,11 +1,11 @@
 'use client'
 
 import React, { useState } from 'react'
-import type { DailyLineup, Year } from '@/types/editions'
-import { Link } from '@/system/link'
-import { Dialog } from '@/system/dialog'
-import { LineupList } from '@/app/editions/_components/lineup-list'
 import { LineupImage } from '@/app/editions/_components/lineup-image'
+import { LineupList } from '@/app/editions/_components/lineup-list'
+import { Dialog } from '@/system/dialog'
+import { Link } from '@/system/link'
+import type { DailyLineup, Year } from '@/types/editions'
 
 type Props = {
 	lineup: DailyLineup

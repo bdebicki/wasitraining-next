@@ -1,6 +1,6 @@
 import React from 'react'
 import { RainDetails } from '@/app/editions/_components/rain-details'
-import type { Rain, RainDetails as Details } from '@/types/rain'
+import type { RainDetails as Details, Rain } from '@/types/rain'
 import { setRainFromProp } from '@/utils/setRainFromProp'
 
 type Props = {

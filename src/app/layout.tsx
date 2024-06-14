@@ -1,7 +1,7 @@
-import { Lato } from 'next/font/google'
-import './globals.css'
-import { Background } from '@/components/background'
 import React from 'react'
+import { Lato } from 'next/font/google'
+import { Background } from '@/components/background'
+import './globals.css'
 
 const lato = Lato({
 	weight: ['400', '700'],
