@@ -6,7 +6,10 @@ import { Link } from '@/app/_system/link'
 import { Dialog } from '@/app/_system/dialog'
 import { LineupDayArtists } from '@/app/editions/_components/lineup-day-artists'
 
-type Props = { lineup: DailyLineup; year: string }
+type Props = {
+	lineup: DailyLineup
+	year: string
+}
 
 export const LineupDetails = ({ lineup, year }: Props) => {
 	const [isOpen, setIsOpen] = useState(false)

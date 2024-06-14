@@ -1,12 +1,7 @@
 import React from 'react'
-import type { Artist } from '@/types/editions'
+import { Artist, Lineup } from '@/types/editions'
 
-type Props = {
-	headliners?: Array<Artist>
-	lvl1?: Array<Artist>
-	lvl2?: Array<Artist>
-	others?: Array<Artist>
-}
+type Props = Lineup
 
 const renderArtist = (artists: Array<Artist>) =>
 	artists.map((artist: Artist) => {

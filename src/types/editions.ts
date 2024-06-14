@@ -1,8 +1,10 @@
 export type Artist =
 	| string
 	| { artist: string; canceled: boolean; replacement?: string }
+export type Year = string
+export type ArtistList = Array<Artist>
 export type EditionInformation = {
-	year: string
+	year: Year
 	fullName: string
 	place: {
 		city: string
@@ -10,10 +12,10 @@ export type EditionInformation = {
 	}
 }
 export type Lineup = {
-	headliners: Array<Artist>
-	lvl1?: Array<Artist>
-	lvl2?: Array<Artist>
-	others?: Array<Artist>
+	headliners?: ArtistList
+	lvl1?: ArtistList
+	lvl2?: ArtistList
+	others?: ArtistList
 }
 export type EditionDetails = Array<{
 	day: string

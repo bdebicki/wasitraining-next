@@ -1,13 +1,15 @@
 import React from 'react'
-import { Artist, DailyLineup, EditionInformation } from '@/types/editions'
+import { ArtistList, DailyLineup, EditionInformation } from '@/types/editions'
 import { LineupDetails } from '@/app/editions/_components/lineup-details'
+import { HeadlinersImage } from '@/app/editions/_components/headliners-image'
+import { HeadlinersList } from '@/app/editions/_components/headliners-list'
 
 export type Props = EditionInformation & {
 	date: {
 		start: string
 		end?: string
 	}
-	headliners: Array<Artist>
+	headliners: ArtistList
 	lineup: DailyLineup
 }
 
@@ -32,15 +34,8 @@ export const EditionInfo = ({
 			<p>
 				{object}, {city}
 			</p>
-			<ul>
-				{headliners.map((artist: Artist) => {
-					return typeof artist === 'string' ? (
-						<li key={artist}> {artist}</li>
-					) : !artist.canceled ? (
-						<li key={artist.artist}> {artist.artist}</li>
-					) : null
-				})}
-			</ul>
+			<HeadlinersImage year={year} headliners={headliners} />
+			<HeadlinersList headliners={headliners} />
 			<LineupDetails year={year} lineup={lineup} />
 		</section>
 	)
