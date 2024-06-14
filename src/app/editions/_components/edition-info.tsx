@@ -38,7 +38,7 @@ export const EditionInfo = ({
 			<p>
 				{object}, {city}
 			</p>
-			<HeadlinersImage year={year} headliners={headliners} />
+			<HeadlinersImage year={year} />
 			<HeadlinersList headliners={headliners} />
 			<Lineup year={year} lineup={lineup} />
 		</section>
