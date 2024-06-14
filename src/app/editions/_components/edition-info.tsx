@@ -1,6 +1,10 @@
 import React from 'react'
-import { ArtistList, DailyLineup, EditionInformation } from '@/types/editions'
-import { LineupDetails } from '@/app/editions/_components/lineup-details'
+import type {
+	ArtistList,
+	DailyLineup,
+	EditionInformation,
+} from '@/types/editions'
+import { Lineup } from '@/app/editions/_components/lineup'
 import { HeadlinersImage } from '@/app/editions/_components/headliners-image'
 import { HeadlinersList } from '@/app/editions/_components/headliners-list'
 
@@ -36,7 +40,7 @@ export const EditionInfo = ({
 			</p>
 			<HeadlinersImage year={year} headliners={headliners} />
 			<HeadlinersList headliners={headliners} />
-			<LineupDetails year={year} lineup={lineup} />
+			<Lineup year={year} lineup={lineup} />
 		</section>
 	)
 }

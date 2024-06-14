@@ -1,17 +1,18 @@
 'use client'
 
 import React, { useState } from 'react'
-import { DailyLineup } from '@/types/editions'
+import type { DailyLineup, Year } from '@/types/editions'
 import { Link } from '@/system/link'
 import { Dialog } from '@/system/dialog'
-import { LineupDayArtists } from '@/app/editions/_components/lineup-day-artists'
+import { LineupList } from '@/app/editions/_components/lineup-list'
+import { LineupImage } from '@/app/editions/_components/lineup-image'
 
 type Props = {
 	lineup: DailyLineup
-	year: string
+	year: Year
 }
 
-export const LineupDetails = ({ lineup, year }: Props) => {
+export const Lineup = ({ lineup, year }: Props) => {
 	const [isOpen, setIsOpen] = useState(false)
 
 	const handleRainDetails = () => {
@@ -28,22 +29,8 @@ export const LineupDetails = ({ lineup, year }: Props) => {
 			</Link>
 			{isOpen ? (
 				<Dialog title={`Lineup ${year}`} onClose={handleClose}>
-					{lineup.map(
-						({
-							day,
-							artists: { headliners, lvl1, lvl2, others },
-						}) => (
-							<div key={day}>
-								<h4>{day}</h4>
-								<LineupDayArtists
-									headliners={headliners}
-									lvl1={lvl1}
-									lvl2={lvl2}
-									others={others}
-								/>
-							</div>
-						)
-					)}
+					<LineupList lineup={lineup} />
+					<LineupImage year={year} />
 				</Dialog>
 			) : null}
 		</>

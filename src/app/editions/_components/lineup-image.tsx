@@ -1,14 +1,14 @@
+import React from 'react'
 import type { Year } from '@/types/editions'
 import Image from 'next/image'
-import React from 'react'
 
 type Props = {
 	year: Year
 }
 
-export const HeadlinersImage = ({ year }: Props) => (
+export const LineupImage = ({ year }: Props) => (
 	<Image
-		src={`/editions/headliners/headliners-${year}.svg`}
+		src={`/editions/posters/poster-${year}.svg`}
 		alt={`Headliners ${year}`}
 		width={100}
 		height={100}

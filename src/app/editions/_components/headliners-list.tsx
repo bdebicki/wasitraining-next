@@ -1,5 +1,5 @@
 import React from 'react'
-import { Artist, ArtistList } from '@/types/editions'
+import type { Artist, ArtistList } from '@/types/editions'
 
 type Props = {
 	headliners: ArtistList
